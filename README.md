@@ -5,8 +5,11 @@ This project seeks to develop an AI system that analyzes hospital or organizatio
 
 The system is intended to:
 Upload and process hospital data – The data, including satisfaction scores and performance indicators, is uploaded into the system.
+
 Query handling – The user provides a query concerning hospital choice, e.g., asking information about the performance of a given hospital.
+
 Data retrieval – Employing RAG, the system retrieves appropriate data from the hospital dataset to respond to the query.
+
 Analysis and suggestion – The agent based on LangChain analyzes the data retrieved and makes a suggestion regarding whether the user should make an appointment with the hospital or not.
 This system can be useful for medical patients and institutions interested in offering tailored, data-backed recommendations to their users. Automating data processing and decision-making, the system presents a seamless, efficient means of assessing hospitals and institutions for health appointment considerations.
 
